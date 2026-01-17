@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple DeFi Portfolio Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DeFi Portfolio Tracker</h1>
+
+    <button id="connectBtn">Connect Wallet</button>
+    <button id="loadBtn">Load Portfolio</button>
+
+    <p><strong>Wallet:</strong> <span id="wallet">Not connected</span></p>
+    <p><strong>ETH Balance:</strong> <span id="ethBalance">-</span></p>
+
+    <h3>Tracked Tokens</h3>
+    <div id="tokenList"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <script src="config.js"></script>
+    <script src="wallet.js"></script>
+    <script src="abi.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="ui.js"></script>
+    <script src="utils.js"></script>
+    <script src="logger.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
